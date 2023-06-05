@@ -17,7 +17,7 @@ const Location = ({ location, setLocation }) => {
         <section>
             <div className="relative">
                 <div className="grid gap-8 grid-cols justify-center max-w mx-auto  ">
-                  <img className="animate-ping" src="./images/portal.png" alt="" />
+                  <img className="animate-pulse" src="./images/portal.png" alt="" />
                   <img className="absolute top-1/3 left-1/2 -translate-x-[50%]" src="./images/logo.png" alt="" />
                 </div>
             </div>
