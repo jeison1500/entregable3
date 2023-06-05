@@ -21,7 +21,7 @@ useEffect(()  =>  {
 
   return (
     <main className="bg-[url('/images/fondo.png')] min-h-screen text-white">
-    <Location location={location} setLocation={setLocation} />
+    <Location location={location} setLocation={setLocation}/>
     <ResidentsList location={location} residents={location?.residents}/>
     </main>
   )
